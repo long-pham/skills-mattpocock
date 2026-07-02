@@ -14,7 +14,7 @@ npx skills update grilling
 
 `grilling` is the relentless interview that stress-tests a plan or design before you build it. It walks down the design tree branch by branch, resolving the dependencies between decisions one at a time until you and the agent share the same understanding.
 
-It asks **one question at a time** and waits for your answer before the next — never a bulk list, which is bewildering. Each question comes with the agent's own recommended answer, and any question the codebase can settle it explores instead of asking you.
+It asks **one question at a time** and waits for your answer before the next — never a bulk list, which is bewildering. No question arrives bare: each lays out the realistic options with their trade-offs (a compact pros/cons table when there are two or more), then names the agent's recommendation and the reasoning behind it, so you're reacting to a proposal you can weigh rather than a blank prompt. Any question the codebase can settle it explores instead of asking you.
 
 ## When to reach for it
 
