@@ -39,6 +39,15 @@ npx skills@latest add mattpocock/skills
 
 4. Bam - you're ready to go.
 
+### Alternative: install as a Claude Code / Claude Cowork plugin
+
+This repo also ships as a native [plugin marketplace](https://code.claude.com/docs/en/plugin-marketplaces), so you can install it without the skills.sh interview:
+
+- **Claude Code**: `/plugin marketplace add mattpocock/skills`, then `/plugin install mattpocock-skills@mattpocock-skills`.
+- **Claude Cowork**: open the Marketplace section, add `mattpocock/skills` as a marketplace, then install the `mattpocock-skills` plugin.
+
+This installs every skill in the repo at once, under the `mattpocock-skills:` namespace. Use the skills.sh installer above if you want to pick individual skills.
+
 ## Why These Skills Exist
 
 I built these skills as a way to fix common failure modes I see with Claude Code, Codex, and other coding agents.

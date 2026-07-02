@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "mattpocock-skills",
+  "owner": {
+    "name": "Matt Pocock"
+  },
+  "description": "Matt Pocock's agent skills for real engineering - not vibe coding.",
+  "plugins": [
+    {
+      "name": "mattpocock-skills",
+      "source": "./",
+      "description": "Matt Pocock's agent skills for real engineering - not vibe coding."
+    }
+  ]
+}
